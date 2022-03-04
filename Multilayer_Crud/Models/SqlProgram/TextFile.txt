@@ -1,0 +1,17 @@
+﻿create database HR;
+use HR;
+
+create table Employee(Id int,
+Name varchar(max),
+Email varchar(max),
+Gender varchar(20),
+Mobile varchar(15));
+
+
+insert into Employee values(1,'Mona','mona12@gmail.com','Female','433454566');
+insert into Employee values(2,'Rina','rina45@gmail.com','Female','12343455');
+insert into Employee values(3,'Pallavi','pallavi89@gmail.com','Female','2434656');
+insert into Employee values(4,'Jay','jay678@gmail.com','Male','35676889');
+insert into Employee values(5,'Kabir','kabir34@gmail.com','Male','976675453');
+
+select * from Employee;
